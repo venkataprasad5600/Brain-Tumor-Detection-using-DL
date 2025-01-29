@@ -12,7 +12,7 @@ Resized images to a uniform size (e.g., 128x128 pixels).
 Converted images to grayscale to reduce computational complexity.
 Normalized pixel values to a range of [0, 1] for better model performance.
 Split the dataset into training, validation, and testing sets (e.g., 70% for training, 15% for validation, and 15% for testing).
-3. Model Architecture
+3.  Model Architecture
 Used Convolutional Neural Networks (CNNs) for image classification.
 The model consists of several convolutional layers followed by pooling layers and dense layers for classification.
 Model architecture:
@@ -22,17 +22,17 @@ Convolutional Layers: Apply filters to detect features like edges, textures, etc
 Pooling Layers: Max pooling to reduce spatial dimensions.
 Dense Layers: Flatten and fully connected layers for final classification.
 Output Layer: Softmax activation for multi-class classification.
-4. Model Training
+4.  Model Training
 Trained the model using the training set with a batch size of 32.
 Used Adam Optimizer for optimization and Categorical Cross-Entropy Loss for loss calculation.
 Evaluated the model on the validation set to fine-tune hyperparameters.
-5. Model Evaluation
+5.  Model Evaluation
 Tested the model on the test dataset to evaluate its accuracy, precision, recall, and F1 score.
 Plotted a confusion matrix to visualize model performance.
-6. Model Improvement
+6.  Model Improvement
 Applied data augmentation techniques (e.g., rotations, zooming, and flipping) to improve generalization.
 Fine-tuned the learning rate and epochs for optimal performance.
-7. Final Prediction
+7.  Final Prediction
 Once the model was trained, predictions were made on new MRI images to detect whether a tumor is present and its type (benign or malignant).
 
 
