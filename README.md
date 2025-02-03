@@ -1,9 +1,9 @@
-# Brain-Tumor-Detection-using-DL
+# 📌  Brain-Tumor-Detection-using-DL
 
-# Overview
+# 📝 Overview
 This project aims to develop a machine learning model to detect brain tumors from MRI scans. The system processes MRI images, extracts relevant features, and classifies them as either benign or malignant. The project leverages deep learning techniques, particularly convolutional neural networks (CNNs), to accurately predict the presence of brain tumors.
 
-# Steps Followed
+# 🛠️ project work flow
 1. Data Collection
 Collected a dataset of brain MRI images from an open-source repository (e.g., Kaggle).
 The dataset contains labeled MRI images categorized into "benign" and "malignant" classes.
@@ -36,13 +36,13 @@ Fine-tuned the learning rate and epochs for optimal performance.
 Once the model was trained, predictions were made on new MRI images to detect whether a tumor is present and its type (benign or malignant).
 
 
-# Results
+# 📊 Results
 Accuracy: Achieved an accuracy of approximately 95% on the test dataset.
 Precision & Recall: The model performed well in both precision and recall metrics, indicating that it effectively distinguishes between benign and malignant tumors.
 Confusion Matrix: Visual representation of the model's classification performance, with accurate tumor detection and few misclassifications.
-# Usage
+# 🔧 Usage
 Prediction on a New Image: To predict whether a brain tumor is benign or malignant from an MRI image, use the following command:
 
 
-# Conclusion
+# ✅ Conclusion
 This project demonstrates the use of deep learning techniques, particularly Convolutional Neural Networks, to detect brain tumors from MRI scans. The model successfully classifies the images into benign and malignant categories, offering potential applications in medical diagnostics and assisting healthcare professionals in early tumor detection.
